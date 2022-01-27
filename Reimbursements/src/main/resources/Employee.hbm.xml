@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd"> 
+
+<hibernate-mapping>
+   <class name = "com.reimbursements.model.Employee" table = "users">
+
+      
+      <id name = "userId" type = "int" column = "userid">
+         <generator class="native"/>
+      </id>
+      
+      <property name = "userRole" column = "userrole" type = "string"/>
+      <property name = "lastName" column = "lastname" type = "string"/>
+        <property name = "firstName" column = "firstname" type = "string"/>
+      <property name = "email" column = "email" type = "string"/>
+       <property name = "username" column = "username" type = "string"/>
+      <property name = "password" column = "password" type = "string"/>
+      <property name = "authorId" column = "authorid" type = "int"/>
+      
+   </class>
+
+   
+</hibernate-mapping>

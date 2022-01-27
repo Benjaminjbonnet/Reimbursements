@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+		<div class="sideBar">
+		<header>Welcome</header>
+			<ul>
+				<li><a href="employeeSubmit.html"><i class="fas fa-address-card"></i>New Request Form</a>
+				</li>
+				<li><a href="pending.html"><i class="fas fa-address-card"></i>Pending Requests</a>
+				</li>
+				<li><a href="updateinfo.html"><i class="fas fa-address-card"></i>Profile</a>
+				</li>
+					<li><a href="index.html"><i class="fas fa-address-card"></i>Logout</a>
+				</li>
+				
+				
+			</ul>
+
+		</div>
+    <div id="container">
+    <center id="box">
+<h1>Login Page</h1>
+    <form action="updateinfo" method="POST" id="form" name="form">
+      <label for="firstname">Update First Name</label>
+          <input type="text" id="firstname" name="firstname" />
+              <label for="lastname">Update Last Name</label>
+         <input type="text" id="lastname" name="lastname" />
+         <label for="firstname">Update Email</label>
+        <input type="text" id="email" name="email" />
+      
+		<input type="submit" id="getData"/>
+     
+        <button type="submit" id="cancel">Cancel</button>
+    </form>
+<hr>
+<div id="restData">New Remimbursement Form.</div>
+    </center>
+    </div>
+
+
+</body>
+<script src="updateinfo.js"></script>
+</html>

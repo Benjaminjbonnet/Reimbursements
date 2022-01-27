@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.reimbursements.model.Reimbursements"
+		table="reimbursements">
+
+
+		<id name="reimbursementId" type="int" column="reimbursementid">
+			<generator class="native" />
+		</id>
+
+		<property name="status" column="status" type="string" />
+		<property name="amount" column="amount" type="double" />
+		<property name="description" column="description" type="string" />
+		<property name="type" column="type" type="string" />
+		<property name="resolvetime" column="resolvetime" type="int" />
+		<property name="submittime" column="submittime" type="int" />
+		<property name="authorid" column="authorid" type="int" />
+		<property name="resolverid" column="resolverid" type="int" />
+
+	</class>
+
+
+</hibernate-mapping>

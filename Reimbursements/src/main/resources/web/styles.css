@@ -1,0 +1,12 @@
+    *{
+	margin:0px;
+	padding:0p;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	background-color: #ddd; 
+}
+
+        div {
+            background-color: aqua;
+         
+        }

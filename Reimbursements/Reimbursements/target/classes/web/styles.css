@@ -1,0 +1,151 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	box-sizing: border-box;
+}
+
+i {
+	color: white;
+}
+
+.sideBar {
+	position: fixed;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background: #042331;
+}
+
+.sideBar header {
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+	background: #063146;
+	user-select: none;
+}
+
+.sideBar ul a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: white;
+	padding-left: 40px;
+	box-sizing: boder-box;
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	transition: .4s;
+}
+
+ul li:hover a {
+	padding-left: 50px;
+}
+
+.sideBar ul a i {
+	margin-right: 16px;
+}
+
+#responseData {
+	position: flex;
+}
+
+th {
+	background-color: aqua;
+}
+
+.background {
+	background: url("pexels-fauxels-3183132.jpg");
+	background-repeat: no-repeat;
+	background-size: 2400px 1400px;
+	padding: 30em;
+}
+
+.wrapper {
+	display: flex;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background: rgba(0, 0, 0, .5);
+	border-bottom-right-radius: 20px;
+	padding: 30px;
+}
+
+.loginwrapper {
+	margin-top: 80px;
+	width: 500px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	background: rgba(0, 0, 0, .5);
+	padding: 30px;
+}
+
+#icons{
+	color:aqua;
+}
+.about-section{
+
+	width:100%;
+	
+	
+}
+.container{
+	width:80%;
+	margin:auto;
+	display:flex;
+	
+}
+.about-section .container .row{
+	width:60%;
+	margin:auto;
+	
+}
+.about-section .container .row .title{
+	text-align: center;
+	margin-top: 50px;
+	
+}
+ h1{
+font-size: 35px;
+letter-spacing: 1.5px;
+	color: #eb6234;
+}
+ .team-card{
+		width:100%;
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 40px;
+		margin-top: 50px;
+	
+}
+ .card{
+ flex:1;
+	width:270px;
+	background-color:#042331;
+	grid-template-columns: auto auto auto auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 70px;
+	cursor:pointer;
+
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	
+}
+.card:hover{
+	background: rgba(0, 0, 0, .5);
+	transition: .3s;
+}
