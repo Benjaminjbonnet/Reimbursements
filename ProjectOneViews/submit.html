@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<style>        th {
+	background-color: aqua;
+}
+		</style>
+</head>
+<body>
+    <div class="sideBar">
+        <header>Welcome</header>
+            <ul>
+                <li><a href="submit.html"><i class="fas fa-address-card"></i>New Request</a>
+                </li>
+                <li><a href="pending.html"><i class="fas fa-address-card"></i>Pending Requests</a>
+                </li>
+                <li><a href="viewReimbursements.html"><i class="fas fa-address-card"></i>All Tickets</a>
+                </li>
+                    <li><a href="index.html"><i class="fas fa-address-card"></i>Logout</a>
+                </li>
+                
+                
+            </ul>
+
+        </div>
+    <div class="background">
+    <center id="box">
+<h1>Login Page</h1>
+    <form action="managersubmit" method="POST" id="form" name="form">
+      <label for="reimbursementid">Enter Reimbursement Id</label>
+          <input type="text" id="reimbursementid" name="reimbursementid" />
+              <label for="status">Enter Status</label>
+         <input type="text" id="status" name="status" />
+         <label for="amount">Enter Reimbursement Amount</label>
+        <input type="text" id="amount" name="amount" />
+         <label for="description">Description Of Reimbursement</label>
+        <input type="text" id="description" name="description"/>
+         <label for="type">Type of Reimbursement</label>
+        <input type="text" id="type" name="type" />
+        <label for="resolvetime">Time Resolved</label>
+        <input type="text" id="resolvetime"  name="resolvetime"/>
+        <label for="submittime">Enter Time Submitted</label>
+        <input type="text" id="submittime" name="submittime"/>
+		<label for="authordid">Enter Reimbursement Authord Id</label>
+		<input type="text" id="authorid" name="authorid" />
+		<label for="resolverdid">Enter Reimbursement Resolver Id</label>
+		<input type="text" id="resolverid" name="resolverid" />
+		<input type="submit" id="getData"/>
+     
+        <button type="submit" id="cancel">Cancel</button>
+    </form>
+<hr>
+<div id="restData">New Remimbursement Form.</div>
+    </center>
+    </div>
+
+
+</body>
+<script src="./js/viewReimbursements.js"></script>
+</html>
